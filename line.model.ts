@@ -1,9 +1,8 @@
-import { Dot } from './dot.model';
 export class Line {
-  start: Dot;
-  end: Dot;
-  constructor(start: Dot, end: Dot) {
-    this.start = start;
-    this.end = end;
+  ver: number;
+  hor: number;
+  constructor(height: number, width: number) {
+    this.ver = height;
+    this.hor = width;
   }
 }
