@@ -1,5 +1,6 @@
 import { Meser } from './meser.model';
 import { Dot } from './dot.model';
+import { Line } from './line.model';
 
 export class Rectangular {
   input1: Dot;

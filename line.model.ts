@@ -1,8 +1,6 @@
 export class Line {
-  ver: number;
-  hor: number;
-  constructor(height: number, width: number) {
-    this.ver = height;
-    this.hor = width;
+  line: number;
+  constructor(line: number) {
+    this.line = line;
   }
 }

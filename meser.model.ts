@@ -10,9 +10,5 @@ export class Meser {
     this.top = width;
     this.right = height;
     this.bottom = width;
-    this.rect();
   }
-  rect(){
-    console.log(`Left= ${this.left}\n Top= ${this.top}\n Right= ${this.right}\n Bottom= ${this.bottom}`);
-  }  
 }
