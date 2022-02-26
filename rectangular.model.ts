@@ -4,10 +4,10 @@ import { Line } from './line.model';
 
 export class Rectangular {
   input1: Dot;
-  input2: Meser;
+  rect: Meser;
 
-  constructor(input1: Dot, input2: Meser) {
+  constructor(input1: Dot, rect: Meser) {
     this.input1 = input1;
-    this.input2 = input2;
+    this.rect = rect;
   }
 }

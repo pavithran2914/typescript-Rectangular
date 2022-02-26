@@ -12,10 +12,8 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
 let point1 = new Dot(5, 5);
 
-let height1 = new Line(15);
-let width1 = new Line(7);
-let me = new Meser(height1, width1);
+let rect = new Meser(15, 7);
 
-let rectangularObj = new Rectangular(point1, me);
+let rectangularObj = new Rectangular(point1, rect);
 
 console.log(rectangularObj);
