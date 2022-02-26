@@ -1,13 +1,18 @@
-import { Meser } from './meser.model';
 import { Dot } from './dot.model';
 import { Line } from './line.model';
+import { Coordinate } from './coordinate.model';
+
 
 export class Rectangular {
-  input1: Dot;
-  rect: Meser;
+  dot: Dot;
+  rect: Coordinate;
 
-  constructor(input1: Dot, rect: Meser) {
-    this.input1 = input1;
+  constructor(dot: Dot, rect: Coordinate) {
+    this.dot = dot;
     this.rect = rect;
+    this.rectang();
+  }
+  rectang(){
+    console.log(`Top = ${this.rect.w} \n Left = ${this.rect.h} \n Right = ${this.rect.h} \n Bottom = ${this.rect.w}`);
   }
 }
