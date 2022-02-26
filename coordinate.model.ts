@@ -1,4 +1,4 @@
-export class Meser {
+export class Coordinate {
    h: number;
    w: number;
   constructor(h: number, w: number) {

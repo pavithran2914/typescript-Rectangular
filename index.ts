@@ -2,7 +2,7 @@
 import './style.css';
 import { Rectangular } from './rectangular.model';
 import { Dot } from './dot.model';
-import { Meser } from './meser.model';
+import { Coordinate } from './coordinate.model';
 import { Line } from './line.model';
 
 
@@ -12,7 +12,7 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
 let point1 = new Dot(5, 5);
 
-let rect = new Meser(15, 7);
+let rect = new Coordinate(15, 7);
 
 let rectangularObj = new Rectangular(point1, rect);
 
