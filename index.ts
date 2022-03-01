@@ -10,10 +10,8 @@ import { Line } from './line.model';
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
-let point1 = new Dot(5, 5);
+let point = new Coordinate(5, 5);
 
-let rect = new Coordinate(15, 7);
-
-let rectangularObj = new Rectangular(point1, rect);
+let rectangularObj = new Rectangular(point, 10, 20);
 
 console.log(rectangularObj);

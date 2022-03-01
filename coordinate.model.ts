@@ -1,8 +1,8 @@
 export class Coordinate {
-   h: number;
-   w: number;
-  constructor(h: number, w: number) {
-    this.h = h;
-    this.w = w;
+  x: number;
+  y: number;
+  constructor(x: number, y: number) {
+    this.x = x;
+    this.y = y;
   }
 }
