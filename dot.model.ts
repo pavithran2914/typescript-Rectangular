@@ -1,6 +1,6 @@
-import { Rectangular } from './rectangular.model';
-import { Coordinate } from './coordinate.model';
-
 export class Dot {
- 
+
+ dot(){
+   console.log("Creates the 4 dots for rectangular.")
+ }
 }

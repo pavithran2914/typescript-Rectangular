@@ -8,17 +8,11 @@ export class Rectangular {
     this.coordinate = coordinate;
     this.h = h;
     this.w = w;
-    this.dot();
-    this.line();
   }
-  dot() {
-    console.log(
-      `Dot1 = ${this.coordinate.x}, ${this.coordinate.y} \n Dot2 = ${this.coordinate.x + this.w}, ${this.coordinate.y} \n Dot3 = ${this.coordinate.x}, ${this.coordinate.y + this.h} \n Dot4 = ${this.coordinate.x + this.w},                   ${this.coordinate.y + this.h}`
-    );
+  dot(){
+    console.log("Creates the 4 dots for rectangular.")
   }
-  line() {
-    console.log(
-      `Line1 = ${this.coordinate.x}, ${this.coordinate.y} to ${this.coordinate.x + this.w}, ${this.coordinate.y} \n Line2 = ${this.coordinate.x + this.w}, ${this.coordinate.y} to ${this.coordinate.x + this.w}, ${this.coordinate.y + this.h} \n Line3 = ${this.coordinate.x + this.w}, ${this.coordinate.y + this.h} to ${this.coordinate.x}, ${this.coordinate.y + this.h} \n Line4 = ${this.coordinate.x}, ${this.coordinate.y + this.h} to ${this.coordinate.x}, ${this.coordinate.y}`
-    );
+  line(){
+    console.log("It create 4 line for rectangular.")
   }
 }

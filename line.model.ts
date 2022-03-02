@@ -1,6 +1,13 @@
+import { Dot } from './dot.model';
+
 export class Line {
-  line: number;
-  constructor(line: number) {
-    this.line = line;
+  start: Dot;
+  end: Dot;
+  constructor(start: Dot, end: Dot) {
+    this.start = start;
+    this.end = end;
+  }
+  line(){
+    console.log("It create 4 line for rectangular.")
   }
 }
