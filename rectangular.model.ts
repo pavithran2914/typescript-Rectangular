@@ -22,7 +22,7 @@ export class Rectangular {
       this.coordinate.x + this.w,
       this.coordinate.y + this.h
     );
-  
+    this.line = new Line(point1, point2);
     this.lines.push(new Line(point1, point2));
     this.lines.push(new Line(point2, point4));
     this.lines.push(new Line(point4, point3));
