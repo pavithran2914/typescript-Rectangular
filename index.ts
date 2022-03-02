@@ -12,6 +12,5 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 let point = new Coordinate(5, 5);
 
 let rectangularObj = new Rectangular(point, 10, 20);
-rectangularObj.dot();
-rectangularObj.line();
+
 console.log(rectangularObj);
