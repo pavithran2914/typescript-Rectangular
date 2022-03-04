@@ -27,9 +27,5 @@ export class Rectangular {
     this.lines.push(new Line(point2, point4));
     this.lines.push(new Line(point4, point3));
     this.lines.push(new Line(point3, point1));
-    //   let line2 = new Line(point2, point4);
-    //   let line3 = new Line(point4, point3);
-    //   let line4 = new Line(point3, point1);
-    // console.log('It create 4 line for rectangular.', line1);
   }
 }
